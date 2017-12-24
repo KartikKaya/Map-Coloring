@@ -1,0 +1,156 @@
+graph G {
+label = "\n\n\n\n MRV WITH FORWARD CHECKING \n\n"
+"0" -- "1"
+"0" -- "3"
+"1" -- "2"
+"1" -- "3"
+"1" -- "5"
+"2" -- "5"
+"2" -- "6"
+"3" -- "5"
+"3" -- "4"
+"3" -- "8"
+"3" -- "7"
+"5" -- "7"
+"5" -- "6"
+"4" -- "9"
+"4" -- "12"
+"4" -- "8"
+"8" -- "12"
+"8" -- "10"
+"8" -- "7"
+"7" -- "6"
+"7" -- "10"
+"7" -- "11"
+"6" -- "11"
+"10" -- "11"
+"11" -- "15"
+"11" -- "16"
+"10" -- "13"
+"10" -- "14"
+"10" -- "15"
+"9" -- "17"
+"9" -- "12"
+"12" -- "17"
+"12" -- "18"
+"13" -- "18"
+"13" -- "14"
+"13" -- "19"
+"14" -- "19"
+"14" -- "15"
+"15" -- "16"
+"15" -- "20"
+"15" -- "19"
+"16" -- "20"
+"16" -- "21"
+"17" -- "22"
+"17" -- "18"
+"18" -- "22"
+"18" -- "19"
+"18" -- "23"
+"19" -- "23"
+"19" -- "20"
+"18" -- "27"
+"19" -- "28"
+"20" -- "28"
+"20" -- "24"
+"20" -- "21"
+"21" -- "24"
+"21" -- "24"
+"22" -- "23"
+"23" -- "26"
+"23" -- "27"
+"24" -- "29"
+"24" -- "28"
+"25" -- "30"
+"25" -- "26"
+"26" -- "30"
+"26" -- "27"
+"27" -- "30"
+"27" -- "35"
+"27" -- "36"
+"27" -- "28"
+"28" -- "29"
+"28" -- "32"
+"28" -- "36"
+"28" -- "35"
+"29" -- "32"
+"29" -- "31"
+"30" -- "42"
+"30" -- "35"
+"43" -- "39"
+"38" -- "39"
+"40" -- "39"
+"38" -- "41"
+"38" -- "40"
+"40" -- "44"
+"40" -- "45"
+"40" -- "41"
+"45" -- "41"
+"44" -- "45"
+"41" -- "46"
+"41" -- "42"
+"42" -- "46"
+"31" -- "32"
+"32" -- "33"
+"32" -- "34"
+"33" -- "35"
+"34" -- "36"
+"36" -- "35"
+"36" -- "37"
+"37" -- "42"
+"49" -- "36"
+"49" -- "42"
+"42" -- "47"
+"48" -- "47"
+"49"  [shape=circle, style=filled, fillcolor=red]
+"36"  [shape=circle, style=filled, fillcolor=green]
+"28"  [shape=circle, style=filled, fillcolor=red]
+"27"  [shape=circle, style=filled, fillcolor=blue]
+"35"  [shape=circle, style=filled, fillcolor=yellow]
+"30"  [shape=circle, style=filled, fillcolor=red]
+"26"  [shape=circle, style=filled, fillcolor=green]
+"23"  [shape=circle, style=filled, fillcolor=red]
+"18"  [shape=circle, style=filled, fillcolor=green]
+"19"  [shape=circle, style=filled, fillcolor=blue]
+"20"  [shape=circle, style=filled, fillcolor=green]
+"15"  [shape=circle, style=filled, fillcolor=red]
+"13"  [shape=circle, style=filled, fillcolor=red]
+"14"  [shape=circle, style=filled, fillcolor=green]
+"10"  [shape=circle, style=filled, fillcolor=blue]
+"11"  [shape=circle, style=filled, fillcolor=green]
+"7"  [shape=circle, style=filled, fillcolor=red]
+"8"  [shape=circle, style=filled, fillcolor=green]
+"3"  [shape=circle, style=filled, fillcolor=blue]
+"5"  [shape=circle, style=filled, fillcolor=green]
+"1"  [shape=circle, style=filled, fillcolor=red]
+"4"  [shape=circle, style=filled, fillcolor=red]
+"12"  [shape=circle, style=filled, fillcolor=blue]
+"6"  [shape=circle, style=filled, fillcolor=blue]
+"2"  [shape=circle, style=filled, fillcolor=yellow]
+"16"  [shape=circle, style=filled, fillcolor=blue]
+"17"  [shape=circle, style=filled, fillcolor=red]
+"24"  [shape=circle, style=filled, fillcolor=blue]
+"29"  [shape=circle, style=filled, fillcolor=green]
+"32"  [shape=circle, style=filled, fillcolor=blue]
+"9"  [shape=circle, style=filled, fillcolor=green]
+"21"  [shape=circle, style=filled, fillcolor=red]
+"22"  [shape=circle, style=filled, fillcolor=blue]
+"0"  [shape=circle, style=filled, fillcolor=green]
+"25"  [shape=circle, style=filled, fillcolor=blue]
+"31"  [shape=circle, style=filled, fillcolor=red]
+"33"  [shape=circle, style=filled, fillcolor=red]
+"34"  [shape=circle, style=filled, fillcolor=red]
+"42"  [shape=circle, style=filled, fillcolor=green]
+"41"  [shape=circle, style=filled, fillcolor=red]
+"46"  [shape=circle, style=filled, fillcolor=blue]
+"40"  [shape=circle, style=filled, fillcolor=green]
+"38"  [shape=circle, style=filled, fillcolor=blue]
+"39"  [shape=circle, style=filled, fillcolor=red]
+"45"  [shape=circle, style=filled, fillcolor=blue]
+"44"  [shape=circle, style=filled, fillcolor=red]
+"37"  [shape=circle, style=filled, fillcolor=red]
+"47"  [shape=circle, style=filled, fillcolor=red]
+"43"  [shape=circle, style=filled, fillcolor=green]
+"48"  [shape=circle, style=filled, fillcolor=green]
+   }
